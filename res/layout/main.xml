@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:text="User Name: "
+            android:id="@+id/TextUser" android:layout_alignParentLeft="true" android:layout_marginLeft="134dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="285dp"/>
+    <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/loginUser"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="246dp"
+            android:layout_alignBaseline="@+id/TextUser"
+            android:inputType="text"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "
+            android:id="@+id/TextPassword" android:layout_alignLeft="@+id/TextUser" android:layout_alignParentTop="true"
+            android:layout_marginTop="368dp"/>
+    <EditText
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/passwordUser"
+            android:layout_alignLeft="@+id/loginUser" android:layout_alignBaseline="@+id/TextPassword"
+            android:inputType="textPassword"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/LoginButton" android:layout_alignParentLeft="true" android:layout_marginLeft="234dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="447dp"/>
+</RelativeLayout>
+
